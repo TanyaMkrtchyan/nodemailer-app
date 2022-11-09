@@ -12,9 +12,9 @@ let transport = nodemailer.createTransport({
 
 const mailOptions = {
   from: 'webdevelopertanya@gmail.com', 
-  to: 'annmkrtchyaan@gmail.com',        
-  subject: 'Hello Anna :)',          
-  text: 'Hello Anna!, Hows going your Angular courses?', 
+  to: 'webdevelopertanya@gmail.com',        
+  subject: 'Hello from nodemailer app :)',          
+  text: 'lorem ipsum', 
 };
 
 transport.sendMail(mailOptions, (error, info) => {
